@@ -1,0 +1,75 @@
+/* Resetando margens e padding padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizando o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Estilizando os links */
+a {
+    color: #35424a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilizando o container principal */
+.container {
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* Estilizando as seções */
+section {
+    margin-bottom: 20px;
+}
+
+/* Estilizando o rodapé */
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Estilizando listas não ordenadas */
+ul {
+    list-style: none;
+}
+
+ul li {
+    padding: 10px;
+    background: #e4e4e4;
+    margin-bottom: 5px;
+}
+
+ul li:nth-child(odd) {
+    background: #f4f4f4;
+}
